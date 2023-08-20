@@ -1,0 +1,139 @@
+.forms {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height:3rem;
+    margin-top:calc(0px - 0.5rem );
+}
+.forms input{
+    width:34rem;
+    height:100%;
+    background: var(--gray-500);
+    color: var(--gray-300);
+    font-size:16px;
+    border-radius:5px;
+    border:none;
+    padding-left: 2rem;
+    font-family: "Inter", sans-serif;
+}
+
+.forms button {
+    margin:0.5rem;
+    font-family: "Inter", sans-serif;
+    width:5rem;
+    height:100%;
+    background:var(--blue-dark);
+    color: white;
+    border-radius:5px;
+    border:none;
+
+}
+.forms button:hover{
+    background:var(--blue);
+}
+/* .container {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 2.5rem 1rem;
+  } */
+.container{
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 2.5rem 1rem;
+    /* display: flex;
+    justify-content:center;
+    flex-flow:column wrap; */
+}
+
+.tarefas {
+    display:flex;
+    justify-content:center;
+    gap:27rem;
+    padding: 1.5rem;
+}
+.createTask{
+    color:var(--blue);
+}
+.completedTask{
+    color:var(--purple)
+}
+.task{
+    display:columns;
+    text-align:center;
+    justify-content:center;
+    padding-top:1.5rem;
+    color:var(--gray-300);
+}
+
+.icon{
+    width:5rem;
+    height:5rem;
+}
+.textClean{
+    color:var(--gray-200);
+}
+
+.toComplete{
+    display: block;
+    position: relative;
+    background: var(--gray-500); 
+    color:white;
+    border-radius: 5px;
+    font-size: 0.75em;
+    padding: 1rem;
+    width: 60%;
+    margin: 0 auto;
+    
+}
+.checkCircle{
+    background:transparent;
+    color:var(--blue);
+    border:none;
+}
+.checkCircle:hover{
+    color:var(--blue-dark);
+}
+.content{
+    margin:1.5rem;
+}
+.trash{
+    background:transparent;
+    color:var(--gray-300);
+    border:none;
+}
+.trash:hover{
+    color:red;
+}
+.teste{
+    background:red;
+}
+
+.isCompleted{
+    display: block;
+    position: relative;
+    background: var(--gray-500); 
+    color:white;
+    border-radius: 5px;
+    font-size: 0.75em;
+    padding: 1rem;
+    width: 60%;
+    margin: 0 auto;
+    opacity: 0.6;
+}
+
+.checkedCircle{
+    background:transparent;
+    color:var(--blue);
+    border:none;
+}
+
+.checkedText{
+    margin:1.5rem;
+    text-decoration: line-through;
+}
+
+@media screen and (max-width: 900px) {
+    section{
+        width:100%;
+    }
+}
