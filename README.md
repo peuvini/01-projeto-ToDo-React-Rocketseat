@@ -15,7 +15,6 @@ Este é um exemplo de README para um projeto de Lista de Tarefas (Todo List) des
 - HTML: Estrutura básica da página web.
 - CSS: Estilização e aparência da aplicação.
 - [React Hooks](https://reactjs.org/docs/hooks-intro.html): Para gerenciar o estado e o ciclo de vida dos componentes.
-- [LocalStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage): Para armazenar os dados das tarefas localmente no navegador.
 
 ## Pré-requisitos
 
